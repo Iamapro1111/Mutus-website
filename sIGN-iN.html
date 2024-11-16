@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="sIGN-IN.css">
+    </head>
+
+
+
+    <body>
+        <video src="iMAGE/SPACE VIDEO.mp4" autoplay muted ></video>
+
+        <form action="iNDEX.html">
+                <div class="container">
+
+                    <h1>Sign in</h1>
+                    <p class="already">Already have an account? <a class="loglog" href="#">Login</a></p>
+
+        <div class="text-for-login">
+            <input type="text" name="email" placeholder="Enter email" required><br><br>
+            <input type="password" name="password" placeholder="Enter password" required><br><br>
+        </div>
+
+        <button type="submit" class="sigsig"> SIGN IN </button>
+        <input class="check" type="checkbox">
+
+        <div class="undertext">
+            <p class="member">Remember me</p> 
+            <p class="forgo"><a href="#">Forgot password?</a></p>
+        </div>
+
+        <div id="loginModal" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeLoginPopup()">&times;</span>
+                <h2>Sign In</h2>
+                <p>You need to sign in to access this content.</p>
+            </div>
+        </div>
+
+            </form>
+        </div>
+    <script src="popup.js"></script>
+    </body>
+</html>
